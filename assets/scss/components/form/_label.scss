@@ -1,0 +1,19 @@
+.form-group {
+    position: relative;
+    height: 44px;
+    margin: 15px 0;
+}
+
+.form-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.form-group input:focus + label {
+    display: block;
+    opacity: 1;
+    transform: translateY(-20px);
+}
