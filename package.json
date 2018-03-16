@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Simple scss framework based on grid",
   "scripts": {
-    "watch": "parcel index.html -p 1234"
+    "watch": "parcel index.html -p 1234",
+    "build-unminify": "parcel build index.html --no-minify --no-cache"
   },
   "author": "",
   "license": "ISC",
