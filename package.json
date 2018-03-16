@@ -1,15 +1,13 @@
 {
-  "name": "design",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "hooga",
+  "version": "0.0.1",
+  "description": "Simple scss framework based on grid",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "parcel index.html -p 1234"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "node-sass": "^4.7.2",
     "parcel-bundler": "^1.6.2"
   }
